@@ -6,12 +6,9 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import Image from "next/image";
-import img from "../../../public/person-studying-at-a-desk.svg";
-
 export function Welcome() {
   return (
-    <section className="w-full bg-gradient-to-b from-white to bg-cyan-500 bg-opacity-5 text-center">
+    <section className="w-full bg-gradient-to-b from-white to bg-cyan-500 bg-opacity-20 text-center">
       <div className="flex flex-row justify-center  px-4 py-10 mx-auto first-letter:md:items-center md:h-screen md:px-2 md:gap-10 items-center max-w-4xl  h-full">
         <div className="flex flex-col w-3/5 mr-6 justify-center">
           <h1 className="py-1 pr-1 text-5xl font-bold bg-gradient-to-r from-blue-500 to bg-cyan-500 bg-clip-text text-transparent">
